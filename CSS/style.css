@@ -20,20 +20,19 @@ body {
 .cabecera-principal p {
     margin: 10px 0 0 0;
     font-style: italic;
-    color: #aaaaaa;
+    color: #aaa;
 }
-
 .bloque-contenido {
-    max-width: 800px;
+    max-width: 800px; /* ancho máximo  */
     margin: 30px auto;
     padding: 20px;
-    background-color: #ffffff;
-    border-radius: 5px;
+    background-color: #fff;
+    border-radius: 5px;  /* bordes redondeados */
 }
 .bloque-contenido h2 {
     color: #1a1a1a;
-    border-bottom: 2px solid #333333;
-    padding-bottom: 10px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;  /* espacio debajo del título , si pongo top es arriba, botton abajo, right derecha, left izquierda */
 }
 .bloque-contenido p {
     text-align: justify;
